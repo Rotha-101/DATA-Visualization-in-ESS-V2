@@ -2,19 +2,36 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# DATA Visualization in ESS
 
-This contains everything you need to run your app locally.
+This project is a standalone React + Vite application for ESS data visualization and analysis. It is no longer managed or deployed through AI Studio.
 
-View your app in AI Studio: https://ai.studio/apps/e6fc3294-2cb4-477b-878e-75f9cded5352
+## Requirements
 
-## Run Locally
+- Node.js 18+
+- npm
 
-**Prerequisites:**  Node.js
-
+## Local Setup
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Create a local environment file if you want Gemini-powered AI features:
+   `cp .env.example .env.local`
+3. Set your Gemini API key in `.env.local`:
+   `GEMINI_API_KEY=your_key_here`
+4. Start the development server:
    `npm run dev`
+
+The app runs on `http://localhost:3000`.
+
+## Available Scripts
+
+- `npm run dev` starts the local Vite dev server
+- `npm run build` creates a production build
+- `npm run preview` previews the production build locally
+- `npm run lint` runs the TypeScript check
+
+## Notes
+
+- AI Studio is not required to run this app.
+- If you do not use the AI features, the main visualization UI can still be developed locally, but Gemini-related features may not work without a valid API key.
