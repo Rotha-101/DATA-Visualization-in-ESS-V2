@@ -1,8 +1,12 @@
-
 ![Project Cover](./cover.png)
+
 # DATA Visualization in ESS
 
-This project is a standalone React + Vite application for ESS data visualization and analysis. It is no longer managed or deployed through AI Studio.
+This project is a standalone React + Vite application for ESS data visualization and analysis.
+
+## Live Demo
+
+🔗 Demo: https://data-visualization-in-ess-v2.vercel.app/
 
 ## Requirements
 
@@ -13,11 +17,8 @@ This project is a standalone React + Vite application for ESS data visualization
 
 1. Install dependencies:
    `npm install`
-2. Create a local environment file if you want Gemini-powered AI features:
-   `cp .env.example .env.local`
-3. Set your Gemini API key in `.env.local`:
-   `GEMINI_API_KEY=your_key_here`
-4. Start the development server:
+
+2. Start the development server:
    `npm run dev`
 
 The app runs on `http://localhost:3000`.
@@ -31,5 +32,5 @@ The app runs on `http://localhost:3000`.
 
 ## Notes
 
-- AI Studio is not required to run this app.
-- If you do not use the AI features, the main visualization UI can still be developed locally, but Gemini-related features may not work without a valid API key.
+- This project runs fully locally with React + Vite.
+- No Gemini API key or AI Studio setup is required.
