@@ -1,5 +1,5 @@
 
-# ![Project Cover](./cover.png)
+![Project Cover](./cover.png)
 # DATA Visualization in ESS
 
 This project is a standalone React + Vite application for ESS data visualization and analysis. It is no longer managed or deployed through AI Studio.
