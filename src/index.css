@@ -201,3 +201,33 @@
 .markdown-body blockquote {
   @apply border-l-2 border-accent-blue pl-3 text-foreground/70 italic mb-3;
 }
+
+.scrollbar-clean {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(148, 163, 184, 0.55) rgba(15, 23, 42, 0.25);
+}
+
+.scrollbar-clean::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.scrollbar-clean::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.scrollbar-clean::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.22);
+}
+
+.scrollbar-clean::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.55);
+  border-radius: 9999px;
+  border: 2px solid rgba(15, 23, 42, 0.18);
+}
+
+.scrollbar-clean::-webkit-scrollbar-corner {
+  background: transparent;
+}
